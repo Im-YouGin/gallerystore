@@ -1,4 +1,4 @@
 GalleryStoreBackend/.env
 .idea
 __pycache__
-
+db/db.sqlite3

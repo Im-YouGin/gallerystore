@@ -100,6 +100,6 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-# CORS_ALLOWED_ORIGINS = [
-#     'https://hauteart.webflow.io'
-# ]
+CORS_ALLOWED_ORIGINS = [
+    'https://hauteart.webflow.io'
+]

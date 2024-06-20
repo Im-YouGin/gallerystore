@@ -34,6 +34,8 @@ MEDIA_ROOT = os.path.join(BASE_DIR, "media")
 USE_I18N = True
 USE_TZ = True
 
+CSRF_TRUSTED_ORIGINS = ['https://7508-185-209-58-129.ngrok-free.app']
+
 
 INSTALLED_APPS = [
     "django.contrib.admin",
@@ -95,5 +97,3 @@ AUTH_PASSWORD_VALIDATORS = [
         "NAME": "django.contrib.auth.password_validation.NumericPasswordValidator",
     },
 ]
-
-SECURE_PROXY_SSL_HEADER = ("HTTP_X_FORWARDED_PROTO", "https")

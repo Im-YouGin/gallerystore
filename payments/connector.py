@@ -23,8 +23,8 @@ class JCCGatewayPaymentsConnector:
             'currency': currency,
             'userName': self.__username,
             'password': self.__password,
-            'returnUrl': 'https://example.com',
-            'failUrl': 'https://example.com',
+            'returnUrl': 'https://hauteart.webflow.io/order-payment-success',
+            'failUrl': 'https://hauteart.webflow.io/order-payment-fail',
         }
 
         response = requests.post(url, headers=headers, data=data)
